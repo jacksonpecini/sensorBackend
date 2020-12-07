@@ -1,0 +1,23 @@
+{
+  "name": "aula-node-express",
+  "version": "1.0.0",
+  "description": "Aula Node - 16/09",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev:start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
